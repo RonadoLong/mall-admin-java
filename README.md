@@ -9,3 +9,5 @@ mall-admin 基于springboot 的后台管理系统API
     配套mall-app Android iOSAPP  代码: https://github.com/TorettoLong/mall-app
 
 ```
+
+<img src="https://image.showm.xin//test/home/home.png" width="505px">
