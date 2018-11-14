@@ -1,0 +1,33 @@
+
+spring:
+  application:
+    name: admin-web
+
+  profiles:
+    active: pro
+
+  http:
+    encoding:
+      force-request: true
+
+
+auth:
+  tokenHeader: Authorization
+  expire: 72000
+  pri-key:
+    path: auth/pri.key
+  pub-key:
+    path: auth/pub.key
+
+
+#七牛的存储
+qiniu:
+  bucket: jigu-app
+  host: http://images.samecity.com.cn/
+  qiniuAK: 9ylMDpP1TSRD9Al2jAnaV099Q6Y-WuZmgR3HbD_s
+  qiniuSK: HGgEnOGOpc_7SMTVZlcv56EOlECYMOzoPX6jR_it
+  expires: 720000
+
+server:
+  context-path: /api/admin
+
